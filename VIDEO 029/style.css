@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#content{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+
+    margin-top: 5vh;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.pic{
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-top: 2px;
+    border-radius: 5%;
+
+}
