@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ELEMENT SELECTOR */
+        div{
+            background-color: red;
+        }
+        /* CLASS SELECTOR */
+        .white{
+            color: white;
+        }
+
+        /* ID SELECTOR */
+
+        #green{
+            background-color: green;
+        }
+
+        /* CHILD SELECTOR */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+        /* DESCENDENT SELECTOR */
+        div p{
+            color: blue;
+            background-color: brown;
+        }
+
+        /* UNIVERSAL SELECTOR */
+        *{
+
+            margin: 0;
+            padding: 0;
+        }
+
+        /* PSEUDO-CLASS SELECTOR */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: aqua;
+        }
+        a:hover{
+            background-color: blue;
+        }
+        p:first-child
+        {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="white" >
+        i am a div
+        <p>This is a paragraph inside div</p>
+    </div>
+    <div id="green">
+        I am another div.
+        <article>
+            <p>This is a paragraph inside div</p>
+        </article>
+    </div>
+    <a href="http://www.google.com">Go To Google </a>
+    <a href="http://www.subhamsaha.com">subhamsaha</a>
+</body>
+</html>
