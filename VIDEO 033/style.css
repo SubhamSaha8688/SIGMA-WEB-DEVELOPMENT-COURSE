@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    
+}
+li a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+nav{
+    background-color: black;
+
+}
+
+nav h1{
+    margin: auto;
+}
