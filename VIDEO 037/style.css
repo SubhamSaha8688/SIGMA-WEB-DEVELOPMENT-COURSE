@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: pink;
+    height: 10vh;
+    
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+
+.rectangle{
+    height: 80vh;
+    margin: 2vw;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.square{
+    width: 40%;
+    margin: 4vw 3vw;
+    background-color: lightcoral;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5vw;
+
+}
+h2{
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 30px;
+}
+.circle{
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: orange;
+}
+footer{
+    background-color: pink;
+    height: 10vh;
+    margin-top: 3vw;
+}
+.box2{
+    background-color: royalblue;
+}
