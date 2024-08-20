@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    font-size: 2rem;
+    
+}
+.logo-symbol{
+    background-color: yellow;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+
+
+}
+.logo-symbol p{
+    position: relative;
+    top: 10px;
+}
+.logo-name{
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    padding-right: 30px;;
+}
